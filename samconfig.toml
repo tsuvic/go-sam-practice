@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "go-sam-practice"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-11sz8igcyeqkn"
+s3_prefix = "go-sam-practice"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
